@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <!-- FONTWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <main>
+        <button class="theme-btn">
+            <input type="checkbox" name="theme" id="theme-check">
+            <img src="images/moon-icon.svg" alt="" id="icon">
+        </button>
+        <h1 class="title">
+            tic tac toe game
+        </h1>
+        <ul class="container">
+            <li class="cell" id="0"></li>
+            <li class="cell" id="1"></li>
+            <li class="cell" id="2"></li>
+            <li class="cell" id="3"></li>
+            <li class="cell" id="4"></li>
+            <li class="cell" id="5"></li>
+            <li class="cell" id="6"></li>
+            <li class="cell" id="7"></li>
+            <li class="cell" id="8"></li>
+        </ul>
+        <div class="score-box">
+            <p class="hu-score">
+                your score: <span class="your-score">0</span>
+            </p>
+            <p class="ai-score-para">
+                computer score: <span class="ai-score">0</span>
+            </p>
+        </div>
+        <div class="msg-container">
+            <div class="confetti">
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+                <div class="confetti-piece"></div>
+            </div>
+            <p class="msg">you won</p>
+            <button class="restart-btn">Restart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
